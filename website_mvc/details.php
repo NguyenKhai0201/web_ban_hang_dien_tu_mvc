@@ -1,6 +1,6 @@
 <?php 
-	include 'inc/header.php';
-	// include 'inc/slider.php';
+	include 'view/header.php';
+	// include 'view/slider.php';
 ?>
 <?php
 
@@ -150,7 +150,7 @@
 						if($getall_category){
 							while($result_allcat = $getall_category->fetch_assoc()){
 					?>
-				     	 <li><a href="productbycat.php?catid=<?php echo $result_allcat['catId'] ?>"><?php echo $result_allcat['catName'] ?></a></li>
+				     	 <li><a href="../productbycat.php?catid=<?php echo $result_allcat['catId'] ?>"><?php echo $result_allcat['catName'] ?></a></li>
 				    <?php
 				    	}
 					}
@@ -182,6 +182,6 @@
  	</div>
 
 <?php 
-	include 'inc/footer.php';
+	include 'view/footer.php';
 	
  ?>

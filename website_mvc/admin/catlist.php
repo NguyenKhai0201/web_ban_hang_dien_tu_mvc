@@ -1,6 +1,6 @@
 ﻿<?php include 'inc/header.php';?>
 <?php include 'inc/sidebar.php';?>
-<?php include '../classes/category.php' ?>
+<?php include '../controller/category.php' ?>
 <?php
     $cat = new category();
      if(isset($_GET['delid'])){

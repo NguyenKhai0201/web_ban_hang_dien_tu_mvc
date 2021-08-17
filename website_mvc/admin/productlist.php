@@ -1,8 +1,8 @@
 ﻿<?php include 'inc/header.php';?>
 <?php include 'inc/sidebar.php';?>
-<?php include '../classes/brand.php';?>
-<?php include '../classes/category.php';?>
-<?php include '../classes/product.php';?>
+<?php include '../controller/brand.php';?>
+<?php include '../controller/category.php';?>
+<?php include '../controller/product.php';?>
 <?php include_once '../helpers/format.php';?>
 <?php
 	$pd = new product();

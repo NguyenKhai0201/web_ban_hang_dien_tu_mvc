@@ -1,6 +1,6 @@
 <?php include 'inc/header.php';?>
 <?php include 'inc/sidebar.php';?>
-<?php include '../classes/product.php';?>
+<?php include '../controller/product.php';?>
 <?php
 	$product = new product();
 	if(isset($_GET['type_slider']) && isset($_GET['type'])){

@@ -1,6 +1,6 @@
 <?php 
-	include 'inc/header.php';
-	include 'inc/slider.php';
+	include 'view/header.php';
+	include 'view/slider.php';
 ?>
  <div class="main">
     <div class="content">
@@ -76,6 +76,6 @@
     </div>
  </div>
 <?php 
-	include 'inc/footer.php';
+	include 'view/footer.php';
 	
  ?>

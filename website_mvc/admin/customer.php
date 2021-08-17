@@ -3,7 +3,7 @@
 <?php
 
 $filepath = realpath(dirname(__FILE__));
-include_once ($filepath.'/../classes/customer.php');
+include_once ($filepath.'/../controller/customer.php');
 include_once ($filepath.'/../helpers/format.php');
 
  ?>

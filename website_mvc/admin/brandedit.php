@@ -1,6 +1,6 @@
 <?php include 'inc/header.php';?>
 <?php include 'inc/sidebar.php';?>
-<?php include '../classes/brand.php' ?>
+<?php include '../controller/brand.php' ?>
 <?php
    
     if(!isset($_GET['brandid']) || $_GET['brandid']==NULL){

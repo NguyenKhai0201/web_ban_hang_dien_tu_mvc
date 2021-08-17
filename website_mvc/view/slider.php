@@ -13,7 +13,7 @@
 				    <div class="text list_2_of_1">
 						<h2>DELL</h2>
 						<p><?php echo $resultdell['productName'] ?></p>
-						<div class="button"><span><a href="details.php?proid=<?php echo $resultdell['productId']  ?>">Add to cart</a></span></div>
+						<div class="button"><span><a href="../details.php?proid=<?php echo $resultdell['productId']  ?>">Add to cart</a></span></div>
 				   </div>
 			   </div>	
 			   <?php
@@ -31,7 +31,7 @@
 					<div class="text list_2_of_1">
 						  <h2>Samsung</h2>
 						  <p><?php echo $resultss['productName'] ?></p>
-						  <div class="button"><span><a href="details.php?proid=<?php echo $resultss['productId']  ?>">Add to cart</a></span></div>
+						  <div class="button"><span><a href="../details.php?proid=<?php echo $resultss['productId']  ?>">Add to cart</a></span></div>
 					</div>
 				</div>
 				   <?php

@@ -1,6 +1,6 @@
 <?php 
-	include 'inc/header.php';
-	// include 'inc/slider.php';
+	include 'view/header.php';
+	// include 'view/slider.php';
 ?>
 
 <style type="text/css">
@@ -47,6 +47,6 @@ p.success_note {
  </div>
 </form>
 <?php 
-	include 'inc/footer.php';
+	include 'view/footer.php';
 	
  ?>

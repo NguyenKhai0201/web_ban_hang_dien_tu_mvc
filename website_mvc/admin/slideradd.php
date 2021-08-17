@@ -1,6 +1,6 @@
 <?php include 'inc/header.php';?>
 <?php include 'inc/sidebar.php';?>
-<?php  include '../classes/product.php' ?>
+<?php  include '../controller/product.php' ?>
 <?php
     $product = new product();
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {

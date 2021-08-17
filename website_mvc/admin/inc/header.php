@@ -1,5 +1,5 @@
 <?php
-    include '../lib/session.php';
+    include '../model/session.php';
     Session::checkSession();
 ?>
 

@@ -1,8 +1,8 @@
 ﻿<?php include 'inc/header.php';?>
 <?php include 'inc/sidebar.php';?>
-<?php include '../classes/brand.php';?>
-<?php include '../classes/category.php';?>
-<?php include '../classes/product.php';?>
+<?php include '../controller/brand.php';?>
+<?php include '../controller/category.php';?>
+<?php include '../controller/product.php';?>
 <?php
     $pd = new product();
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {

@@ -1,10 +1,10 @@
-﻿<?php include 'inc/header.php';?>
-<?php include 'inc/sidebar.php';?>
+﻿<?php include 'view/header.php';?>
+<?php include 'view/sidebar.php';?>
 
 <?php 
 
 $filepath = realpath(dirname(__FILE__));
-include_once ($filepath.'/../classes/cart.php');
+include_once ($filepath.'/../controller/cart.php');
 include_once ($filepath.'/../helpers/format.php');
 
 ?>
@@ -114,4 +114,4 @@ include_once ($filepath.'/../helpers/format.php');
         setSidebarHeight();
     });
 </script>
-<?php include 'inc/footer.php';?>
+<?php include 'view/footer.php';?>

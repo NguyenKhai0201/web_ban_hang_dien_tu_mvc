@@ -1,14 +1,14 @@
 <?php
-    include 'lib/session.php';
+    include 'model/session.php';
     Session::init();
 ?>
 <?php
 	
-	include 'lib/database.php';
+	include 'model/database.php';
 	include 'helpers/format.php';
 
 	spl_autoload_register(function($class){
-		include_once "classes/".$class.".php";
+		include_once "controller/".$class.".php";
 	});
 		
 
